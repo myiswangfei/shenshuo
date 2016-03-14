@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BusinnessPlatform</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_edit_name">请输入用户名</string>
+    <string name="login_edit_pass">请输入密码</string>
+    <string name="new_user_res">新用户注册</string>
+    <string name="forget_pass">忘记密码</string>
+    <string name="version_information">版本信息</string>
+    
+    
+    <string name="login_butt_submit">登陆</string>
+    <string name="main_radio_collect">收藏</string>
+    <string name="main_radio_search">查询</string>
+     <string name="main_radio_data">个人资料</string>
+     <string name="search_edit_name">想搜索的用户名</string>
+     <string name="search">搜索</string>
+     <string name="setting_but">设置</string>
+     <string name="input_chat_content">这里输入聊天信息</string>
+     <string name="send_but">发送</string>
+
+</resources>

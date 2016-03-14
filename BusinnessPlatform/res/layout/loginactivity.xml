@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#F08418"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/log_ima"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/login_top"
+        />
+
+    
+    
+    
+    
+    
+    
+    <EditText
+        android:id="@+id/login_username"
+        style="@style/login_edittext_style"
+        android:layout_below="@id/log_ima"
+        android:layout_marginTop="30dp"
+        android:hint="@string/login_edit_name"
+         >
+        <requestFocus />
+    </EditText>
+    
+    
+    
+    
+     <EditText
+        android:id="@+id/login_userpass"
+        style="@style/login_edittext_style"
+        android:layout_below="@id/login_username"
+        android:layout_marginTop="25dp"
+        android:hint="@string/login_edit_pass"
+         >
+        <requestFocus />
+    </EditText>
+
+     <Button
+         android:id="@+id/but_login"
+         style="@style/login_edittext_style"
+         android:layout_width="120dp"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/login_userpass"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="15dp"
+         android:text="@string/login_butt_submit" />
+
+     <TextView
+         android:id="@+id/tex_register"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/login_userpass"
+         android:layout_below="@+id/but_login"
+         android:layout_marginTop="25dp"
+         android:textColor="@color/white"
+         android:text="@string/new_user_res" />
+
+     <TextView
+         android:id="@+id/tex_forget_pass"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/tex_register"
+         android:textColor="@color/white"
+         android:layout_alignBottom="@+id/tex_register"
+         android:layout_alignRight="@+id/login_userpass"
+         android:text="@string/forget_pass" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+         android:text="@string/version_information" />
+    
+</RelativeLayout>
